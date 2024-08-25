@@ -76,19 +76,19 @@ Easily book appointments with local healthcare providers based on your medical n
 ## BUILD PROCESS
 
 - <b>Clone Or Download the Repository</b>
-  - `git clone https://github.com/Rash023/Mediquity.git`
+  - `git clone https://github.com/tariq-akram/Medilink.git`
 - <b>FOR FRONTEND:</b>
   - `npm i` to install dependencies
-  - `npm run start`
-  - `cd models`
+  - `cd client`
+  - `npm start`
+- <b> For ML Models:</b>
+  - `cd models` in a seperate terminal to run the ML models
   - `pip install requirments.txt`
+  - `python app.py` to start the ML models
 - <b>FOR BACKEND:</b>
-  - `cd server`
-  - `npm run start` to start node dependencies
-  - `python app.py` to start the node dependencies
+  - `cd server` in a seperate terminal
+  - `npm run dev` to start node dependencies
 
 
 
-## ACKNOWLEGMENT
 
-Thanks to [JetBrains](https://www.jetbrains.com) for supporting us with a [free Open Source License](https://www.jetbrains.com/buy/opensource).
